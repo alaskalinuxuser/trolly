@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: fulvio.trolly\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-10 13:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/components/ConfirmDialog.qml:36 ../qml/components/MainPage.qml:107
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/components/ConfirmDialog.qml:41
+msgid "OK"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:13
+msgid "Pick a color"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:22
+msgid "Orange"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:30
+msgid "Light grey"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:38
+msgid "Dark grey"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:46
+msgid "Red"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:54
+msgid "Green"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:62
+msgid "Blue"
+msgstr ""
+
+#: ../qml/components/ColorListPage.qml:70
+msgid "Purple"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:31
+msgid "Blood Pressure Diary"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:50
+msgid "Remove selected Item ?"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:50
+msgid "(there is no restore)"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:59
+#: ../qml/components/BloodDiaryPage.qml:135
+msgid "Close"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:65
+msgid "Delete"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:71
+msgid "Item deleted successfully"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:75
+msgid "Error during deletion"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:102
+msgid "Notes"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:124 ../qml/components/MainPage.qml:112
+msgid "Confirm"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:128
+msgid "Close and press save to confirm"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:211
+msgid "Show saved blood pressure data"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:224
+msgid "From"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:241
+msgid "To"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:256
+msgid "Load"
+msgstr ""
+
+#: ../qml/components/BloodDiaryPage.qml:272
+msgid "Total record found"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:26
+msgid "Clipboard Import"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:33
+msgid "Reload"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:40
+#: ../qml/components/MainPage.qml:34
+msgid "Settings..."
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:72
+msgid ""
+"There is no text in the clipboard.\n"
+"Please copy some text from another application first"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:124
+msgid "Import to list"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:21
+msgid "History (swipe item for options)"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:26
+msgid "Delete all"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:58
+msgid ""
+"No items in history.\n"
+"Items appear here after you remove them from the list with Clear list button."
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:106
+msgid ""
+"Move\n"
+"to list"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:58
+msgid "Delete list"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:149
+msgid "Permanently delete all the items in the history?"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:10
+msgid "Trolly Settings"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:23
+msgid "Appearance"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:27
+msgid "Item in list"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:40
+msgid "Item in trolly (checked ones)"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:52
+msgid "Align to center"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:15
+msgid "About Trolly"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:43
+msgid "Trolly version"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:60
+msgid "Trolly is a shopping list or todo manager application."
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:61
+msgid "This is a forked version of the original one made by Cos64"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:62
+msgid ""
+"<strong>Credits:</strong> Thanks to Cos64 for the idea and source code base"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:70
+msgid "<strong>List items actions</strong>"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:72
+msgid "<strong>Touch</strong> to check (or uncheck) a list item"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:73
+msgid "<strong>Swipe left</strong> to edit item"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:74
+msgid "<strong>Swipe right</strong> to delete item"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:83
+msgid "<strong>App Menu actions</strong>"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:85
+msgid "<strong>Checkout</strong> removes checked items and remembers them"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:86
+msgid "<strong>Clear list</strong> removes items and move to history page"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:87
+msgid "<strong>Delete list</strong> removes permanently all items"
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:97
+msgid "Released under the terms of "
+msgstr ""
+
+#: ../qml/components/AboutPage.qml:98
+msgid "<strong>Old</strong> source code available on "
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:14
+msgid "Clipboard Import Settings"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:27
+msgid "Separators used to tokenize clipboard entry"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:29
+msgid "Comma"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:39
+msgid "New line"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:49
+msgid "Space"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:16
+msgid "Trolly"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:22
+msgid "About..."
+msgstr ""
+
+#: ../qml/components/MainPage.qml:42
+msgid "Checkout"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:50
+msgid "Clear list"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:66
+msgid "History..."
+msgstr ""
+
+#: ../qml/components/MainPage.qml:76
+msgid "Import from clipboard..."
+msgstr ""
+
+#: ../qml/components/MainPage.qml:91
+msgid "Edit"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:134
+msgid "Clear list?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:135
+msgid "Items will be moved to History page"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:142
+msgid "Delete list ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:143
+msgid "Permanently delete all the items ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:150
+msgid "Clear Checked items ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:151
+msgid "Remove PERMANENTLY checked items ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:204
+msgid "Add an item"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:227
+msgid "Add"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:241
+msgid "(Swipe to rigth or left selected item for options)"
+msgstr ""
+
+#: trolly.desktop.in.h:1
+msgid "trolly"
+msgstr ""

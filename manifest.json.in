@@ -1,0 +1,15 @@
+{
+    "name": "trolly.fulvio",
+    "description": "A todo, shoping list manager with advandced features",
+    "architecture": "all",
+    "title": "trolly",
+    "hooks": {
+        "trolly": {
+            "apparmor": "trolly.apparmor",
+            "desktop":  "trolly.desktop"
+        }
+    },
+    "version": "1.3",
+    "maintainer": "fulvio <fulvio999@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
