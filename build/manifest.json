@@ -6,10 +6,10 @@
     "hooks": {
         "trolly": {
             "apparmor": "trolly.apparmor",
-            "desktop":  "trolly.desktop"
+            "desktop": "trolly.desktop"
         }
     },
     "version": "1.4",
     "maintainer": "fulvio <fulvio999@gmail.com>",
-    "framework" : "ubuntu-sdk-15.04.5"
+    "framework": "ubuntu-sdk-15.04.5"
 }

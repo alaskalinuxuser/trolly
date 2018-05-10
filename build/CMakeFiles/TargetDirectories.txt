@@ -1,0 +1,3 @@
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build/po/CMakeFiles/fulvio.trolly.pot.dir
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build/CMakeFiles/trolly.desktop.dir
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build/CMakeFiles/trolly_FILES.dir
