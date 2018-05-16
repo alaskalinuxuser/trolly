@@ -182,6 +182,32 @@ fulvio.trolly.pot/fast:
 	$(MAKE) -f po/CMakeFiles/fulvio.trolly.pot.dir/build.make po/CMakeFiles/fulvio.trolly.pot.dir/build
 .PHONY : fulvio.trolly.pot/fast
 
+#=============================================================================
+# Target rules for targets named pofiles
+
+# Build rule for target.
+pofiles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pofiles
+.PHONY : pofiles
+
+# fast build rule for target.
+pofiles/fast:
+	$(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
+.PHONY : pofiles/fast
+
+#=============================================================================
+# Target rules for targets named pofiles_1
+
+# Build rule for target.
+pofiles_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pofiles_1
+.PHONY : pofiles_1
+
+# fast build rule for target.
+pofiles_1/fast:
+	$(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
+.PHONY : pofiles_1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,6 +223,8 @@ help:
 	@echo "... trolly.desktop"
 	@echo "... trolly_FILES"
 	@echo "... fulvio.trolly.pot"
+	@echo "... pofiles"
+	@echo "... pofiles_1"
 .PHONY : help
 
 

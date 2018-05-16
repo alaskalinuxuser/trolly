@@ -24,3 +24,4 @@
 //qml/Main.qml
 //assets/trolly.png
 //trolly.desktop
+/share/locale/es/LC_MESSAGES/fulvio.trolly.mo

@@ -88,4 +88,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/trolly.desktop.dir/DependInfo.cmake"
   "CMakeFiles/trolly_FILES.dir/DependInfo.cmake"
   "po/CMakeFiles/fulvio.trolly.pot.dir/DependInfo.cmake"
+  "po/CMakeFiles/pofiles.dir/DependInfo.cmake"
+  "po/CMakeFiles/pofiles_1.dir/DependInfo.cmake"
   )

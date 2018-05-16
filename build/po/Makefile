@@ -157,6 +157,34 @@ fulvio.trolly.pot/fast:
 	cd /home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build && $(MAKE) -f po/CMakeFiles/fulvio.trolly.pot.dir/build.make po/CMakeFiles/fulvio.trolly.pot.dir/build
 .PHONY : fulvio.trolly.pot/fast
 
+# Convenience name for target.
+po/CMakeFiles/pofiles.dir/rule:
+	cd /home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles.dir/rule
+.PHONY : po/CMakeFiles/pofiles.dir/rule
+
+# Convenience name for target.
+pofiles: po/CMakeFiles/pofiles.dir/rule
+.PHONY : pofiles
+
+# fast build rule for target.
+pofiles/fast:
+	cd /home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build && $(MAKE) -f po/CMakeFiles/pofiles.dir/build.make po/CMakeFiles/pofiles.dir/build
+.PHONY : pofiles/fast
+
+# Convenience name for target.
+po/CMakeFiles/pofiles_1.dir/rule:
+	cd /home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build && $(MAKE) -f CMakeFiles/Makefile2 po/CMakeFiles/pofiles_1.dir/rule
+.PHONY : po/CMakeFiles/pofiles_1.dir/rule
+
+# Convenience name for target.
+pofiles_1: po/CMakeFiles/pofiles_1.dir/rule
+.PHONY : pofiles_1
+
+# fast build rule for target.
+pofiles_1/fast:
+	cd /home/fulvio/Dropbox/ubuntu-devel/my-apps/Trolly/sources/trolly/build && $(MAKE) -f po/CMakeFiles/pofiles_1.dir/build.make po/CMakeFiles/pofiles_1.dir/build
+.PHONY : pofiles_1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -169,6 +197,8 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... pofiles"
+	@echo "... pofiles_1"
 	@echo "... rebuild_cache"
 .PHONY : help
 
