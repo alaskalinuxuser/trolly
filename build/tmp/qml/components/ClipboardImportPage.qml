@@ -32,7 +32,7 @@ Page {
                 id: reload
                 text: i18n.tr("Reload")
                 iconName: "reload"
-                onTriggered: importFromClipboard()
+                onTriggered: refreshClipboard()
             },
 
             Action {
@@ -44,6 +44,7 @@ Page {
         ]
     }
 
+    /* clipboard token splitted using the tokenizer enabled */
     property var tokens: null;
 
     ListModel {
@@ -86,6 +87,7 @@ Page {
                     }
 
                     UbuntuListView {
+                        id:clipBoardListView
                         anchors {
                             left: parent.left
                             right: parent.right
@@ -142,17 +144,26 @@ Page {
     }
 
     Component.onCompleted: {
-        console.log('clipboard loaded')
         importFromClipboard();
     }
 
 
-
+    /* Clipboard is an Component provided by Ubuntu.components */
     function importFromClipboard() {
         console.log('Importing from clipboard: ' + Clipboard.data.text)
+        clipboardListModel.clear()
         tokens = StringTokenizer.tokenize(Clipboard.data.text, getSeparators())
 
+        for(var i = 0; i < tokens.length; i++) {
+            clipboardListModel.append({tokenLabel: tokens[i], tokenChecked: true})
+        }
+    }
+
+    function refreshClipboard() {
+        console.log('Refreshing clipboard, found: ' + Clipboard.data.text)
         clipboardListModel.clear()
+        tokens = StringTokenizer.tokenize(Clipboard.data.text, getSeparators())
+
         for(var i = 0; i < tokens.length; i++) {
             clipboardListModel.append({tokenLabel: tokens[i], tokenChecked: true})
         }

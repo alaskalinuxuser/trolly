@@ -49,7 +49,7 @@
             console.log("Error reading from database: " + err);
         };
 
-        console.log('Loaded ' + loadedItems.length + ' history items.');
+        //console.log('Loaded ' + loadedItems.length + ' history items.');
         return loadedItems;
     }
 
@@ -106,7 +106,7 @@
         try {
             storage.db.transaction(
                 function(tx) {
-                    console.log('Deleting item ' + itemName);
+                    //console.log('Deleting item ' + itemName);
                     tx.executeSql('DELETE FROM ShoppingList WHERE itemName = ?', itemName);
                 }
             );
@@ -125,7 +125,7 @@
         try {
             storage.db.transaction(
                 function(tx) {
-                    console.log('Deleting a list of ' + itemNames.length + ' items.');
+                    //console.log('Deleting a list of ' + itemNames.length + ' items.');
                     var placeholders = new Array(itemNames.length).join('?,') + '?'
                     tx.executeSql('DELETE FROM ShoppingList WHERE itemName IN (' + placeholders + ')', itemNames);
                 }
@@ -145,7 +145,7 @@
         try {
             storage.db.transaction(
                 function(tx) {
-                    console.log('Clearing a list of ' + itemNames.length + ' items.');
+                    //console.log('Clearing a list of ' + itemNames.length + ' items.');
                     var placeholders = new Array(itemNames.length).join('?,') + '?'
                     tx.executeSql('UPDATE ShoppingList SET checked = 2 WHERE itemName IN (' + placeholders + ')', itemNames);
                 }

@@ -58,7 +58,7 @@ Item {
                     for (var settingIndex = 0; settingIndex < settingsItems.length; settingIndex++) {
                         var loaded = false;
                         var currentSettingItem = settingsItems[settingIndex];
-                        console.log('Trying to load setting ' + currentSettingItem.key)
+                        //console.log('Trying to load setting ' + currentSettingItem.key)
                         for (var row = 0; row < rs.rows.length; row++) {
                             var key = rs.rows.item(row).key;
                             var value = rs.rows.item(row).value;
@@ -68,16 +68,16 @@ Item {
                                 if (typeof currentValue === "undefined" || currentValue.toString() !== value) {
                                     currentSettingItem.value = value;
                                     loaded = true;
-                                    console.log('Loaded setting ' + key + ': ' + value);
+                                    //console.log('Loaded setting ' + key + ': ' + value);
                                 }
                             }
                         }
                         if (! loaded) {
                             currentSettingItem.value = currentSettingItem.defaultValue;
-                            console.log('No saved value found for setting ' + key + ', using default value: ' + currentSettingItem.defaultValue);
+                            //console.log('No saved value found for setting ' + key + ', using default value: ' + currentSettingItem.defaultValue);
                         }
                     }
-                    console.log('Finished reading settings')
+                    //console.log('Finished reading settings')
                     initialized = true;
                 }
             );

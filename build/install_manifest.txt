@@ -4,7 +4,6 @@
 //qml/components/HighlightHistoryComponent.qml
 //qml/components/PersistentListDelegate.qml
 //qml/components/ColorListPage.qml
-//qml/components/BloodDiaryPage.qml
 //qml/components/ClipboardImportPage.qml
 //qml/components/HistoryPage.qml
 //qml/components/SettingsRepository.qml

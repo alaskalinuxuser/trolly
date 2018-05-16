@@ -8,8 +8,8 @@
   function tokenize(text, separators) {
 
         var lastPos = 0;
-        
-        /* produced rtoken to return */
+
+        /* produced token to return  using the separator */
         var tokens = [];
         if(text) {
             for(var c = 0; c < text.length; c++) {

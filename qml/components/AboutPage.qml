@@ -82,9 +82,12 @@ Page {
                 text: {
                     i18n.tr("<strong>App Menu actions</strong>") + "<br/>"+
                     "<ul>" +
-                    "<li>" + i18n.tr("<strong>Checkout</strong> removes checked items and remembers them") + "</li>" +
-                    "<li>" + i18n.tr("<strong>Clear list</strong> removes items and move to history page") + "</li>" +
-                    "<li>" + i18n.tr("<strong>Delete list</strong> removes permanently all items") + "</li>" +
+                    "<li>" + i18n.tr("<strong>Import from Clipboard</strong> import text from clipboard") + "</li>" +
+                    "<li>" + i18n.tr("<strong>History</strong> display items removed with 'Clear list' option") + "</li>" +
+                    "<li>" + i18n.tr("<strong>Delete list</strong> removes permanently ALL items") + "</li>" +
+                    "<li>" + i18n.tr("<strong>Clear list</strong> removes all items and move to history page") + "</li>" +
+                    "<li>" + i18n.tr("<strong>Checkout</strong> removes permanently checked items and remembers them") + "</li>" +
+                    "<li>" + i18n.tr("<strong>Settings</strong> application configuration") + "</li>" +
                     "</ul>"
                 }
             }

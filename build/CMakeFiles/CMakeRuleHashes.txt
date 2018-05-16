@@ -1,4 +1,4 @@
 # Hashes of file build rules.
 1b34ce3aaf4e6561c2de96f342b0fb2f CMakeFiles/trolly.desktop
 7bc8f2b09b97cec9b70311201508ae61 CMakeFiles/trolly_FILES
-8c97c4c4ca704936538808f0de7ad6f1 po/CMakeFiles/fulvio.trolly.pot
+37ef44ea45b1656f0e415e232b6a54a3 po/CMakeFiles/fulvio.trolly.pot

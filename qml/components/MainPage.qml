@@ -11,6 +11,8 @@ import "../dao/ShoppingListDao.js" as ShoppingListDao
 Page {
      id:mainPage
 
+      property string oldValue: ""
+
      header: PageHeader {
          id: pageHeader
          title: i18n.tr("Trolly")
@@ -82,51 +84,7 @@ Page {
 
     property int listIndex: -1
 
-    /* --------------  Edit item: Shown on Swipe to left movement ------------- */
-    Component {
-        id: editItemDialog
-        Dialog {
-            id: dialogue
-            contentWidth: units.gu(42)
-            title: i18n.tr("Edit")
-            TextArea {
-                 id: textArea
-                 textFormat:TextEdit.AutoText
-                 text: listModel.get(listIndex).itemName
-                 height: units.gu(15)
-                 width: parent.width - units.gu(4)
-                 readOnly: false
-            }
-
-            Row {
-                id: row
-                width: parent.width
-                spacing: units.gu(1)
-                Button {
-                    width: parent.width/2
-                    text: i18n.tr("Cancel")
-                    onClicked: PopupUtils.close(dialogue)
-                }
-                Button {
-                    width: parent.width/2
-                    text: i18n.tr("Confirm")
-                    color: UbuntuColors.green
-                    onClicked: {
-                        var oldName = listModel.get(listIndex).itemName;
-                        var newName = textArea.text;
-
-                        listModel.get(listIndex).itemName = newName;
-
-                        /* update item name (the user has swiped left) */
-                        ShoppingListDao.db_update_name(oldName, newName);
-
-                        PopupUtils.close(dialogue)
-                    }
-                }
-            }
-        }
-    }
-    //-----------------------------------------------------------
+    //edit component
 
     /* Confirm dialog opened when user press "clear list" form the menu bar. It remove ALL the list items */
     ConfirmDialog {
@@ -149,10 +107,10 @@ Page {
         id: checkoutListDialog
         dialogTitle: i18n.tr("Clear Checked items ?")
         dialogText: i18n.tr("Remove PERMANENTLY checked items ?")
-        onOk:
+        onOk: /* on 'Ok' signal */
         {
-          var itemNames = []
-          for (var i = listModel.count - 1; i >= 0; i--) {
+           var itemNames = []
+           for (var i = listModel.count - 1; i >= 0; i--) {
               var listItem = listModel.get(i)
               if (listItem.checked === 1) {
                   var itemName = listItem.itemName
@@ -160,8 +118,8 @@ Page {
 
                   listModel.remove(i);
               }
-          }
-          ShoppingListDao.db_clear_list(itemNames)
+           }
+           ShoppingListDao.db_clear_list(itemNames)
         }
     }
     //--------------------------------------------------------------
