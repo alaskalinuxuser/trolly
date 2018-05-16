@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=trolly
-Name[es]=trolly
-Exec=qmlscene qml/Main.qml
-Icon=assets/trolly.png
-Terminal=false
-Type=Application
-X-Ubuntu-Touch=true
