@@ -51,8 +51,8 @@ ListItem {
                           //textArea.text = textArea.displayText
                           var newName = textArea.displayText; //text;
 
-                          console.log("Old value:"+mainPage.oldValue);
-                          console.log("NEW value:"+newName)
+                          //console.log("Old value:"+mainPage.oldValue);
+                          //console.log("NEW value:"+newName)
 
                           listModel.get(index).itemName = newName;
 
