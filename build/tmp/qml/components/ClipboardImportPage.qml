@@ -150,7 +150,7 @@ Page {
 
     /* Clipboard is an Component provided by Ubuntu.components */
     function importFromClipboard() {
-        console.log('Importing from clipboard: ' + Clipboard.data.text)
+        //console.log('Importing from clipboard: ' + Clipboard.data.text)
         clipboardListModel.clear()
         tokens = StringTokenizer.tokenize(Clipboard.data.text, getSeparators())
 
@@ -160,7 +160,7 @@ Page {
     }
 
     function refreshClipboard() {
-        console.log('Refreshing clipboard, found: ' + Clipboard.data.text)
+        //console.log('Refreshing clipboard, found: ' + Clipboard.data.text)
         clipboardListModel.clear()
         tokens = StringTokenizer.tokenize(Clipboard.data.text, getSeparators())
 

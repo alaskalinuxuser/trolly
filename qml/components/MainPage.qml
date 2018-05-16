@@ -11,7 +11,7 @@ import "../dao/ShoppingListDao.js" as ShoppingListDao
 Page {
      id:mainPage
 
-      property string oldValue: ""
+     property string oldValue: ""
 
      header: PageHeader {
          id: pageHeader
