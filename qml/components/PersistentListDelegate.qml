@@ -12,13 +12,13 @@ import "../dao/ShoppingListDao.js" as ShoppingListDao
 ListItem {
    id: listItem
    width: mainPage.width
-   //height: units.gu(5) /* the heigth of the rectangle that contains an expense in the list */
+   //height: units.gu(5) /* the height of the rectangle that contains an expense in the list */
 
 
    divider.visible: false
 
    /* --------------  Edit item: Shown on Swipe to left movement ------------- */
-      Component {
+   Component {
           id: editItemDialog
           Dialog {
               id: dialogue
@@ -75,8 +75,11 @@ ListItem {
                    var listItem = listModel.get(index);
                    /* move the highlight component to the currently selected item */
                    listView.currentIndex = index
-                   listItem.checked = listItem.checked === 1 ? 0 : 1;
-                   ShoppingListDao.db_update_checked(listItem.itemName, listItem.checked);
+                   if(settingsRepository.markDisabled.value === false){
+                      listItem.checked = listItem.checked === 1 ? 0 : 1;
+                      ShoppingListDao.db_update_checked(listItem.itemName, listItem.checked);
+                   }
+
                  }
              }
 

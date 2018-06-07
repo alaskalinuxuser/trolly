@@ -11,6 +11,7 @@ import "../dao/ShoppingListDao.js" as ShoppingListDao
 Page {
      id:mainPage
 
+     /* used when urse edit an item. It keep the value before editing */
      property string oldValue: ""
 
      header: PageHeader {
@@ -142,7 +143,7 @@ Page {
         Rectangle {
             color: "transparent"
             width: parent.width
-            height: units.gu(8)
+            height: units.gu(5)
         }
 
         Row {
@@ -194,10 +195,35 @@ Page {
 
         Row{
           anchors.horizontalCenter: parent.horizontalCenter
+          spacing: units.gu(2)
           Label{
              fontSize: "little"
-             text: i18n.tr("(Swipe to rigth or left selected item for options)")
+             text: i18n.tr("(Swipe to right or left selected item for options)")
           }
+       }
+
+       Row{
+          anchors.horizontalCenter: parent.horizontalCenter
+          spacing: units.gu(2)
+          Label{
+               id: switchLabel
+               fontSize: "little"
+               text: i18n.tr("Mark disabled")+":"
+          }
+
+          Switch {
+                  id: lockList
+                  checked: settingsRepository.markDisabled.value
+                  onCheckedChanged: {
+                      if(lockList.checked){
+                         //mainPage.listReadonly = true;
+                         settingsRepository.markDisabled.value = true;
+                      }else{
+                         //mainPage.listReadonly = false;
+                         settingsRepository.markDisabled.value = false;
+                      }
+                  }
+           }
         }
 
     }

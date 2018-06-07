@@ -3,8 +3,15 @@ import Ubuntu.Components 1.3
 
 /*
    Keep some user settings about item colors
+   TODO: migrate to Settings Components instead of this solution
 */
 Item {
+
+    /* lock or unlock Mark item in the list */
+    property SettingsItem markDisabled: SettingsItem {
+        key: "mark.disabled"
+      defaultValue: false.toString()
+    }
 
     property SettingsItem itemInListColor: SettingsItem {
         key: "color.item.in.list"
@@ -37,6 +44,7 @@ Item {
     }
 
     readonly property var settingsItems: [
+        markDisabled,
         itemInListColor,
         itemInTrollyColor,
         alignToCenter,

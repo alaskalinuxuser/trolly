@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fulvio.trolly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-16 13:21+0000\n"
+"POT-Creation-Date: 2018-06-07 10:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,7 @@ msgid "Reload"
 msgstr ""
 
 #: ../qml/components/ClipboardImportPage.qml:40
-#: ../qml/components/MainPage.qml:36
+#: ../qml/components/MainPage.qml:37
 msgid "Settings..."
 msgstr ""
 
@@ -109,7 +109,7 @@ msgid ""
 "to list"
 msgstr ""
 
-#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:60
+#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:61
 msgid "Delete list"
 msgstr ""
 
@@ -232,64 +232,68 @@ msgstr ""
 msgid "Space"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:18
+#: ../qml/components/MainPage.qml:19
 msgid "Trolly"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:24
+#: ../qml/components/MainPage.qml:25
 msgid "About..."
 msgstr ""
 
-#: ../qml/components/MainPage.qml:44
+#: ../qml/components/MainPage.qml:45
 msgid "Checkout"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:52
+#: ../qml/components/MainPage.qml:53
 msgid "Clear list"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:68
+#: ../qml/components/MainPage.qml:69
 msgid "History..."
 msgstr ""
 
-#: ../qml/components/MainPage.qml:78
+#: ../qml/components/MainPage.qml:79
 msgid "Import from clipboard..."
 msgstr ""
 
-#: ../qml/components/MainPage.qml:92
+#: ../qml/components/MainPage.qml:93
 msgid "Clear list?"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:93
+#: ../qml/components/MainPage.qml:94
 msgid "Items will be moved to History page"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:100
+#: ../qml/components/MainPage.qml:101
 msgid "Delete list ?"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:101
+#: ../qml/components/MainPage.qml:102
 msgid "Permanently delete all the items ?"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:108
+#: ../qml/components/MainPage.qml:109
 msgid "Clear Checked items ?"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:109
+#: ../qml/components/MainPage.qml:110
 msgid "Remove PERMANENTLY checked items ?"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:162
+#: ../qml/components/MainPage.qml:163
 msgid "Add an item"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:185
+#: ../qml/components/MainPage.qml:186
 msgid "Add"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:199
-msgid "(Swipe to rigth or left selected item for options)"
+#: ../qml/components/MainPage.qml:201
+msgid "(Swipe to right or left selected item for options)"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:211
+msgid "Mark disabled"
 msgstr ""
 
 #: trolly.desktop.in.h:1
