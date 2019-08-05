@@ -162,7 +162,8 @@ Page {
                 width: parent.width - units.gu(20)
                 placeholderText: i18n.tr("Add an item")
                 hasClearButton: true
-                onDisplayTextChanged: {
+                //does not work on 16.04 --> disable suggestions feature
+                /*onDisplayTextChanged: {
                     showSuggestions(textInput, displayText.length > 0);
                 }
 
@@ -170,7 +171,6 @@ Page {
                    addToList();
                 }
 
-                /* Show the suggestions popUp */
                 MouseArea {
                     anchors.fill: parent;
                     onClicked: {
@@ -178,6 +178,7 @@ Page {
                         showSuggestions(textInput);
                     }
                 }
+                */
             }
 
             Button {

@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the fulvio.trolly package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fulvio.trolly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-07 10:12+0000\n"
+"POT-Creation-Date: 2019-08-05 19:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,15 +284,15 @@ msgstr ""
 msgid "Add an item"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:186
+#: ../qml/components/MainPage.qml:187
 msgid "Add"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:201
+#: ../qml/components/MainPage.qml:202
 msgid "(Swipe to right or left selected item for options)"
 msgstr ""
 
-#: ../qml/components/MainPage.qml:211
+#: ../qml/components/MainPage.qml:212
 msgid "Mark disabled"
 msgstr ""
 
