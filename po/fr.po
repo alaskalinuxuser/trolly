@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fulvio.trolly package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: fulvio.trolly\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-05 19:39+0000\n"
+"PO-Revision-Date: 2019-08-11 13:22+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/components/ConfirmDialog.qml:36
+#: ../qml/components/PersistentListDelegate.qml:42
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../qml/components/ConfirmDialog.qml:41
+msgid "OK"
+msgstr "Valider"
+
+#: ../qml/components/PersistentListDelegate.qml:26
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../qml/components/PersistentListDelegate.qml:47
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: ../qml/components/ColorListPage.qml:13
+msgid "Pick a color"
+msgstr "Choisissez une couleur"
+
+#: ../qml/components/ColorListPage.qml:22
+msgid "Orange"
+msgstr "Orange"
+
+#: ../qml/components/ColorListPage.qml:30
+msgid "Light grey"
+msgstr "Gris pâle"
+
+#: ../qml/components/ColorListPage.qml:38
+msgid "Dark grey"
+msgstr "Gris foncé"
+
+#: ../qml/components/ColorListPage.qml:46
+msgid "Red"
+msgstr "Rouge"
+
+#: ../qml/components/ColorListPage.qml:54
+msgid "Green"
+msgstr "Vert"
+
+#: ../qml/components/ColorListPage.qml:62
+msgid "Blue"
+msgstr "Bleu"
+
+#: ../qml/components/ColorListPage.qml:70
+msgid "Purple"
+msgstr "Violet"
+
+#: ../qml/components/ClipboardImportPage.qml:26
+msgid "Clipboard Import"
+msgstr "Import du presse-papier"
+
+#: ../qml/components/ClipboardImportPage.qml:33
+msgid "Reload"
+msgstr "Actualiser"
+
+#: ../qml/components/ClipboardImportPage.qml:40
+#: ../qml/components/MainPage.qml:37
+msgid "Settings..."
+msgstr "Paramètres..."
+
+#: ../qml/components/ClipboardImportPage.qml:73
+msgid ""
+"There is no text in the clipboard.\n"
+"Please copy some text from another application first"
+msgstr ""
+"Aucun texte n'est dans le presse-papier.\n"
+"Veuillez d'abord copier du texte à partir d'une autre application"
+
+#: ../qml/components/ClipboardImportPage.qml:126
+msgid "Import to list"
+msgstr "Importer dans la liste"
+
+#: ../qml/components/HistoryPage.qml:21
+msgid "History (swipe item for options)"
+msgstr "Historique (glissez pour plus d'options)"
+
+#: ../qml/components/HistoryPage.qml:26
+msgid "Delete all"
+msgstr "Tout supprimer"
+
+#: ../qml/components/HistoryPage.qml:58
+msgid ""
+"No items in history.\n"
+"Items appear here after you remove them from the list with Clear list button."
+msgstr ""
+"Aucun article dans l'historique.\n"
+"Les articles apparaissent ici après que vous les ayiez supprimé de la liste avec le bouton « Vider la liste »."
+
+#: ../qml/components/HistoryPage.qml:106
+msgid ""
+"Move\n"
+"to list"
+msgstr ""
+"Ajouter à\n"
+"la liste"
+
+#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:61
+msgid "Delete list"
+msgstr "Supprimer la liste"
+
+#: ../qml/components/HistoryPage.qml:149
+msgid "Permanently delete all the items in the history?"
+msgstr "Supprimer définitivement tous les articles de l'historique ?"
+
+#: ../qml/components/SettingsPage.qml:10
+msgid "Trolly Settings"
+msgstr "Paramètres de Chariot"
+
+#: ../qml/components/SettingsPage.qml:23
+msgid "Appearance"
+msgstr "Apparence"
+
+#: ../qml/components/SettingsPage.qml:27
+msgid "Item in list"
+msgstr "Articles dans la liste"
+
+#: ../qml/components/SettingsPage.qml:40
+msgid "Item in trolly (checked ones)"
+msgstr "Articles dans le chariot (vérifiés)"
+
+#: ../qml/components/SettingsPage.qml:52
+msgid "Align to center"
+msgstr "Aliner au centre"
+
+#: ../qml/components/AboutPage.qml:15
+msgid "About Trolly"
+msgstr "À propos de Chariot"
+
+#: ../qml/components/AboutPage.qml:43
+msgid "Trolly version"
+msgstr "Version de Chariot"
+
+#: ../qml/components/AboutPage.qml:60
+msgid "Trolly is a shopping list or todo manager application."
+msgstr "Chariot est une liste de course et une application de gestion de tâches à faire."
+
+#: ../qml/components/AboutPage.qml:61
+msgid "This is a forked version of the original one made by Cos64"
+msgstr "Il s'agit d'une version dérivée de l'originale créée par Cos64"
+
+#: ../qml/components/AboutPage.qml:62
+msgid ""
+"<strong>Credits:</strong> Thanks to Cos64 for the idea and source code base"
+msgstr ""
+"<strong>Remerciements :</strong> Merci à Cos64 pour l'idée et la base du code source"
+
+#: ../qml/components/AboutPage.qml:70
+msgid "<strong>List items actions</strong>"
+msgstr "<strong>Actions sur la liste des articles</strong>"
+
+#: ../qml/components/AboutPage.qml:72
+msgid "<strong>Touch</strong> to check (or uncheck) a list item"
+msgstr "<strong>Appuyez</strong> pour cocher (ou décocher) un article dans la liste"
+
+#: ../qml/components/AboutPage.qml:73
+msgid "<strong>Swipe left</strong> to edit item"
+msgstr "<strong>Faites glisser à gauche</strong> pour modifier un article"
+
+#: ../qml/components/AboutPage.qml:74
+msgid "<strong>Swipe right</strong> to delete item"
+msgstr "<strong>Faites glisser à droite</strong> pour supprimer un article"
+
+#: ../qml/components/AboutPage.qml:83
+msgid "<strong>App Menu actions</strong>"
+msgstr "<strong>Actions dans le menu de l'application</strong>"
+
+#: ../qml/components/AboutPage.qml:85
+msgid "<strong>Import from Clipboard</strong> import text from clipboard"
+msgstr "<strong>Importer à partir du presse-papier</strong> importe le texte contenu dans le presse-papier"
+
+#: ../qml/components/AboutPage.qml:86
+msgid "<strong>History</strong> display items removed with 'Clear list' option"
+msgstr "<strong>Historique</strong> affiche les articles supprimés via l'option « Vider la liste »"
+
+#: ../qml/components/AboutPage.qml:87
+msgid "<strong>Delete list</strong> removes permanently ALL items"
+msgstr "<strong>Supprimer la liste</strong> supprimer définitivement TOUS les articles"
+
+#: ../qml/components/AboutPage.qml:88
+msgid "<strong>Clear list</strong> removes all items and move to history page"
+msgstr "<strong>Vider la liste</strong> supprime tous les articles et les déplace vers la page d'historique"
+
+#: ../qml/components/AboutPage.qml:89
+msgid ""
+"<strong>Checkout</strong> removes permanently checked items and remembers "
+"them"
+msgstr ""
+"<strong>Paiement</strong> supprime définitivement les articles cochés et s'en "
+"souvient"
+
+#: ../qml/components/AboutPage.qml:90
+msgid "<strong>Settings</strong> application configuration"
+msgstr "<strong>Paramètres</strong> permet d'accéder à la configuration de l'application"
+
+#: ../qml/components/AboutPage.qml:100
+msgid "Released under the terms of "
+msgstr "Distribuée sous les termes de "
+
+#: ../qml/components/AboutPage.qml:101
+msgid "<strong>Old</strong> source code available on "
+msgstr "<strong>Ancien</strong> code source disponible sur "
+
+#: ../qml/components/TokenizerSettingsPage.qml:14
+msgid "Clipboard Import Settings"
+msgstr "Paramètres d'import du presse-papier"
+
+#: ../qml/components/TokenizerSettingsPage.qml:27
+msgid "Separators used to tokenize clipboard entry"
+msgstr "Séparateurs utilisés pour diviser les entrées du presse-papier"
+
+#: ../qml/components/TokenizerSettingsPage.qml:29
+msgid "Comma"
+msgstr "Virgule"
+
+#: ../qml/components/TokenizerSettingsPage.qml:39
+msgid "New line"
+msgstr "Nouvelle ligne"
+
+#: ../qml/components/TokenizerSettingsPage.qml:49
+msgid "Space"
+msgstr "Espace"
+
+#: ../qml/components/MainPage.qml:19
+msgid "Trolly"
+msgstr "Chariot"
+
+#: ../qml/components/MainPage.qml:25
+msgid "About..."
+msgstr "À propos..."
+
+#: ../qml/components/MainPage.qml:45
+msgid "Checkout"
+msgstr "Paiement"
+
+#: ../qml/components/MainPage.qml:53
+msgid "Clear list"
+msgstr "Vider la liste"
+
+#: ../qml/components/MainPage.qml:69
+msgid "History..."
+msgstr "Historique..."
+
+#: ../qml/components/MainPage.qml:79
+msgid "Import from clipboard..."
+msgstr "Importer à partir du presse-papier..."
+
+#: ../qml/components/MainPage.qml:93
+msgid "Clear list?"
+msgstr "Vider la liste ?"
+
+#: ../qml/components/MainPage.qml:94
+msgid "Items will be moved to History page"
+msgstr "Les articles seront déplacés vers la page d'historique"
+
+#: ../qml/components/MainPage.qml:101
+msgid "Delete list ?"
+msgstr "Supprimer la liste ?"
+
+#: ../qml/components/MainPage.qml:102
+msgid "Permanently delete all the items ?"
+msgstr "Supprimer définitivement tous les articles ?"
+
+#: ../qml/components/MainPage.qml:109
+msgid "Clear Checked items ?"
+msgstr "Vider les articles cochés ?"
+
+#: ../qml/components/MainPage.qml:110
+msgid "Remove PERMANENTLY checked items ?"
+msgstr "Supprimer DÉFINITIVEMENT les articles cochés ?"
+
+#: ../qml/components/MainPage.qml:163
+msgid "Add an item"
+msgstr "Ajouter un article"
+
+#: ../qml/components/MainPage.qml:187
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../qml/components/MainPage.qml:202
+msgid "(Swipe to right or left selected item for options)"
+msgstr "(Faites glisser à droite ou à gauche l'article sélectionné pour plus d'options)"
+
+#: ../qml/components/MainPage.qml:212
+msgid "Mark disabled"
+msgstr "Marquer désactivé"
+
+#: trolly.desktop.in.h:1
+msgid "trolly"
+msgstr "Chariot"
