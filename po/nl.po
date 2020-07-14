@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fulvio.trolly package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fulvio.trolly\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-05 19:39+0000\n"
+"PO-Revision-Date: 2020-07-14 14:00+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+
+#: ../qml/components/ConfirmDialog.qml:36
+#: ../qml/components/PersistentListDelegate.qml:42
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../qml/components/ConfirmDialog.qml:41
+msgid "OK"
+msgstr "Oké"
+
+#: ../qml/components/PersistentListDelegate.qml:26
+msgid "Edit"
+msgstr "Aanpassen"
+
+#: ../qml/components/PersistentListDelegate.qml:47
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: ../qml/components/ColorListPage.qml:13
+msgid "Pick a color"
+msgstr "Kies een kleur"
+
+#: ../qml/components/ColorListPage.qml:22
+msgid "Orange"
+msgstr "Oranje"
+
+#: ../qml/components/ColorListPage.qml:30
+msgid "Light grey"
+msgstr "Lichtgrijs"
+
+#: ../qml/components/ColorListPage.qml:38
+msgid "Dark grey"
+msgstr "Donkergrijs"
+
+#: ../qml/components/ColorListPage.qml:46
+msgid "Red"
+msgstr "Rood"
+
+#: ../qml/components/ColorListPage.qml:54
+msgid "Green"
+msgstr "Groen"
+
+#: ../qml/components/ColorListPage.qml:62
+msgid "Blue"
+msgstr "Blauw"
+
+#: ../qml/components/ColorListPage.qml:70
+msgid "Purple"
+msgstr "Paars"
+
+#: ../qml/components/ClipboardImportPage.qml:26
+msgid "Clipboard Import"
+msgstr "Importeren van klembord"
+
+#: ../qml/components/ClipboardImportPage.qml:33
+msgid "Reload"
+msgstr "Herladen"
+
+#: ../qml/components/ClipboardImportPage.qml:40
+#: ../qml/components/MainPage.qml:37
+msgid "Settings..."
+msgstr "Instellingen..."
+
+#: ../qml/components/ClipboardImportPage.qml:73
+msgid ""
+"There is no text in the clipboard.\n"
+"Please copy some text from another application first"
+msgstr ""
+"Het klembord bevat geen tekst.\n"
+"Kopieer tekst uit een andere app."
+
+#: ../qml/components/ClipboardImportPage.qml:126
+msgid "Import to list"
+msgstr "Importeren naar lijst"
+
+#: ../qml/components/HistoryPage.qml:21
+msgid "History (swipe item for options)"
+msgstr "Geschiedenis (veeg om acties te tonen)"
+
+#: ../qml/components/HistoryPage.qml:26
+msgid "Delete all"
+msgstr "Alles verwijderen"
+
+#: ../qml/components/HistoryPage.qml:58
+msgid ""
+"No items in history.\n"
+"Items appear here after you remove them from the list with Clear list button."
+msgstr ""
+"Geen geschiedenisitems.\n"
+"Items verschijnen hier nadat je ze verwijderd hebt middels de knop 'Lijst "
+"wissen'."
+
+#: ../qml/components/HistoryPage.qml:106
+msgid ""
+"Move\n"
+"to list"
+msgstr ""
+"Verplaatsen\n"
+"naar lijst"
+
+#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:61
+msgid "Delete list"
+msgstr "Lijst verwijderen"
+
+#: ../qml/components/HistoryPage.qml:149
+msgid "Permanently delete all the items in the history?"
+msgstr "Weet je zeker dat je alle geschiedenisitems wilt verwijderen?"
+
+#: ../qml/components/SettingsPage.qml:10
+msgid "Trolly Settings"
+msgstr "Trolly-instellingen"
+
+#: ../qml/components/SettingsPage.qml:23
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: ../qml/components/SettingsPage.qml:27
+msgid "Item in list"
+msgstr "Lijstitem"
+
+#: ../qml/components/SettingsPage.qml:40
+msgid "Item in trolly (checked ones)"
+msgstr "Trolly-item (aangevinkt)"
+
+#: ../qml/components/SettingsPage.qml:52
+msgid "Align to center"
+msgstr "Centreren"
+
+#: ../qml/components/AboutPage.qml:15
+msgid "About Trolly"
+msgstr "Over Trolly"
+
+#: ../qml/components/AboutPage.qml:43
+msgid "Trolly version"
+msgstr "Trolly-versie"
+
+#: ../qml/components/AboutPage.qml:60
+msgid "Trolly is a shopping list or todo manager application."
+msgstr "Trolly is een app om je boodschappen- of takenlijst mee te beheren."
+
+#: ../qml/components/AboutPage.qml:61
+msgid "This is a forked version of the original one made by Cos64"
+msgstr "Deze versie is geforkt van het origineel van Cos64"
+
+#: ../qml/components/AboutPage.qml:62
+msgid ""
+"<strong>Credits:</strong> Thanks to Cos64 for the idea and source code base"
+msgstr ""
+"<strong>Met dank aan</strong> Cos64 voor het idee en de basis van de broncode"
+
+#: ../qml/components/AboutPage.qml:70
+msgid "<strong>List items actions</strong>"
+msgstr "<strong>Lijstitemacties</strong>"
+
+#: ../qml/components/AboutPage.qml:72
+msgid "<strong>Touch</strong> to check (or uncheck) a list item"
+msgstr "<strong>Raak</strong> een lijstitem aan om deze aan of af te vinken"
+
+#: ../qml/components/AboutPage.qml:73
+msgid "<strong>Swipe left</strong> to edit item"
+msgstr "<strong>Veeg naar links</strong> om een item aan te passen"
+
+#: ../qml/components/AboutPage.qml:74
+msgid "<strong>Swipe right</strong> to delete item"
+msgstr "<strong>Veeg naar rechts</strong> om een item te verwijderen"
+
+#: ../qml/components/AboutPage.qml:83
+msgid "<strong>App Menu actions</strong>"
+msgstr "<strong>Menu-acties</strong>"
+
+#: ../qml/components/AboutPage.qml:85
+msgid "<strong>Import from Clipboard</strong> import text from clipboard"
+msgstr ""
+"<strong>Importeren van klembord</strong> - importeer tekst van het klembord"
+
+#: ../qml/components/AboutPage.qml:86
+msgid "<strong>History</strong> display items removed with 'Clear list' option"
+msgstr ""
+"<strong>Geschiedenis</strong> - toon items die verwijderd zijn middels de "
+"optie 'Lijst wissen'"
+
+#: ../qml/components/AboutPage.qml:87
+msgid "<strong>Delete list</strong> removes permanently ALL items"
+msgstr "<strong>Lijst verwijderen</strong> - verwijder ALLE items permanent"
+
+#: ../qml/components/AboutPage.qml:88
+msgid "<strong>Clear list</strong> removes all items and move to history page"
+msgstr ""
+"<strong>Lijst wissen</strong> - verwijder alle items en voeg ze toe aan de "
+"geschiedenispagina"
+
+#: ../qml/components/AboutPage.qml:89
+msgid ""
+"<strong>Checkout</strong> removes permanently checked items and remembers "
+"them"
+msgstr ""
+"<strong>Uitvinken</strong> verwijdert permanent aangevinkte items en "
+"onthoudt ze"
+
+#: ../qml/components/AboutPage.qml:90
+msgid "<strong>Settings</strong> application configuration"
+msgstr "<strong>Instellingen</strong> - stel de app in"
+
+#: ../qml/components/AboutPage.qml:100
+msgid "Released under the terms of "
+msgstr "Uitgebracht onder de voorwaarden van "
+
+#: ../qml/components/AboutPage.qml:101
+msgid "<strong>Old</strong> source code available on "
+msgstr "De <strong>oude</strong> broncode is beschikbaar op "
+
+#: ../qml/components/TokenizerSettingsPage.qml:14
+msgid "Clipboard Import Settings"
+msgstr "Importinstellingen"
+
+#: ../qml/components/TokenizerSettingsPage.qml:27
+msgid "Separators used to tokenize clipboard entry"
+msgstr "Klemborditems scheiden middels een"
+
+#: ../qml/components/TokenizerSettingsPage.qml:29
+msgid "Comma"
+msgstr "Komma"
+
+#: ../qml/components/TokenizerSettingsPage.qml:39
+msgid "New line"
+msgstr "Nieuwe regel"
+
+#: ../qml/components/TokenizerSettingsPage.qml:49
+msgid "Space"
+msgstr "Spatie"
+
+#: ../qml/components/MainPage.qml:19
+msgid "Trolly"
+msgstr "Trolly"
+
+#: ../qml/components/MainPage.qml:25
+msgid "About..."
+msgstr "Over..."
+
+#: ../qml/components/MainPage.qml:45
+msgid "Checkout"
+msgstr "Uitvinken"
+
+#: ../qml/components/MainPage.qml:53
+msgid "Clear list"
+msgstr "Lijst wissen"
+
+#: ../qml/components/MainPage.qml:69
+msgid "History..."
+msgstr "Geschiedenis..."
+
+#: ../qml/components/MainPage.qml:79
+msgid "Import from clipboard..."
+msgstr "Importeren van klembord..."
+
+#: ../qml/components/MainPage.qml:93
+msgid "Clear list?"
+msgstr "Weet je het zeker?"
+
+#: ../qml/components/MainPage.qml:94
+msgid "Items will be moved to History page"
+msgstr "De items worden verplaatst naar de geschiedenispagina"
+
+#: ../qml/components/MainPage.qml:101
+msgid "Delete list ?"
+msgstr "Lijst verwijderen?"
+
+#: ../qml/components/MainPage.qml:102
+msgid "Permanently delete all the items ?"
+msgstr "Weet je zeker dat je alle items permanent wilt wissen?"
+
+#: ../qml/components/MainPage.qml:109
+msgid "Clear Checked items ?"
+msgstr "Aangevinkte items verwijderen?"
+
+#: ../qml/components/MainPage.qml:110
+msgid "Remove PERMANENTLY checked items ?"
+msgstr ""
+"Weet je zeker dat je alle aangevinkte items PERMANENT wilt verwijderen?"
+
+#: ../qml/components/MainPage.qml:163
+msgid "Add an item"
+msgstr "Item toevoegen"
+
+#: ../qml/components/MainPage.qml:187
+msgid "Add"
+msgstr "Toevoegen"
+
+#: ../qml/components/MainPage.qml:202
+msgid "(Swipe to right or left selected item for options)"
+msgstr "(veeg een item naar links of rechts om acties te tonen)"
+
+#: ../qml/components/MainPage.qml:212
+msgid "Mark disabled"
+msgstr "Aanvinken uitgeschakeld"
+
+#: trolly.desktop.in.h:1
+msgid "trolly"
+msgstr "trolly"
