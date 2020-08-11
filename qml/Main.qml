@@ -12,7 +12,7 @@ MainView {
     /* applicationName needs to match the "name" field of the click manifest */
     applicationName: "trolly.fulvio"
 
-    property string appVersion : "1.7.1"  //code base version used: "1.2.30"
+    property string appVersion : "1.7.3"  //code base version used: "1.2.30"
 
     /*------- Tablet (width >= 110) -------- */
     //vertical ok
