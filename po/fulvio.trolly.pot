@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fulvio.trolly\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-11 15:54+0000\n"
+"POT-Creation-Date: 2025-09-22 15:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,178 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../qml/components/HistoryPage.qml:21
-msgid "History (swipe item for options)"
-msgstr ""
-
-#: ../qml/components/HistoryPage.qml:26
-msgid "Delete all"
-msgstr ""
-
-#: ../qml/components/HistoryPage.qml:58
-msgid ""
-"No items in history.\n"
-"Items appear here after you remove them from the list with Clear list button."
-msgstr ""
-
-#: ../qml/components/HistoryPage.qml:106
-msgid ""
-"Move\n"
-"to list"
-msgstr ""
-
-#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:61
-msgid "Delete list"
-msgstr ""
-
-#: ../qml/components/HistoryPage.qml:149
-msgid "Permanently delete all the items in the history?"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:19
-msgid "Trolly"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:25
-msgid "About..."
-msgstr ""
-
-#: ../qml/components/MainPage.qml:37
-#: ../qml/components/ClipboardImportPage.qml:40
-msgid "Settings..."
-msgstr ""
-
-#: ../qml/components/MainPage.qml:45
-msgid "Checkout"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:53
-msgid "Clear list"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:69
-msgid "History..."
-msgstr ""
-
-#: ../qml/components/MainPage.qml:79
-msgid "Import from clipboard..."
-msgstr ""
-
-#: ../qml/components/MainPage.qml:93
-msgid "Clear list?"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:94
-msgid "Items will be moved to History page"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:101
-msgid "Delete list ?"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:102
-msgid "Permanently delete all the items ?"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:109
-msgid "Clear Checked items ?"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:110
-msgid "Remove PERMANENTLY checked items ?"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:163
-msgid "Add an item"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:187
-msgid "Add"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:202
-msgid "(Swipe to right or left selected item for options)"
-msgstr ""
-
-#: ../qml/components/MainPage.qml:212
-msgid "Mark disabled"
-msgstr ""
-
-#: ../qml/components/ClipboardImportPage.qml:26
-msgid "Clipboard Import"
-msgstr ""
-
-#: ../qml/components/ClipboardImportPage.qml:33
-msgid "Reload"
-msgstr ""
-
-#: ../qml/components/ClipboardImportPage.qml:73
-msgid ""
-"There is no text in the clipboard.\n"
-"Please copy some text from another application first"
-msgstr ""
-
-#: ../qml/components/ClipboardImportPage.qml:126
-msgid "Import to list"
-msgstr ""
-
-#: ../qml/components/TokenizerSettingsPage.qml:14
-msgid "Clipboard Import Settings"
-msgstr ""
-
-#: ../qml/components/TokenizerSettingsPage.qml:27
-msgid "Separators used to tokenize clipboard entry"
-msgstr ""
-
-#: ../qml/components/TokenizerSettingsPage.qml:29
-msgid "Comma"
-msgstr ""
-
-#: ../qml/components/TokenizerSettingsPage.qml:39
-msgid "New line"
-msgstr ""
-
-#: ../qml/components/TokenizerSettingsPage.qml:49
-msgid "Space"
-msgstr ""
-
-#: ../qml/components/PersistentListDelegate.qml:26
-msgid "Edit"
-msgstr ""
-
-#: ../qml/components/PersistentListDelegate.qml:42
-#: ../qml/components/ConfirmDialog.qml:36
-msgid "Cancel"
-msgstr ""
-
-#: ../qml/components/PersistentListDelegate.qml:47
-msgid "Confirm"
-msgstr ""
-
-#: ../qml/components/SettingsPage.qml:10
-msgid "Trolly Settings"
-msgstr ""
-
-#: ../qml/components/SettingsPage.qml:23
-msgid "Appearance"
-msgstr ""
-
-#: ../qml/components/SettingsPage.qml:27
-msgid "Item in list"
-msgstr ""
-
-#: ../qml/components/SettingsPage.qml:40
-msgid "Item in trolly (checked ones)"
-msgstr ""
-
-#: ../qml/components/SettingsPage.qml:52
-msgid "Align to center"
-msgstr ""
-
-#: ../qml/components/ConfirmDialog.qml:41
-msgid "OK"
-msgstr ""
 
 #: ../qml/components/AboutPage.qml:15
 msgid "About Trolly"
@@ -264,6 +92,29 @@ msgstr ""
 msgid "<strong>Old</strong> source code available on "
 msgstr ""
 
+#: ../qml/components/ClipboardImportPage.qml:26
+msgid "Clipboard Import"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:33
+msgid "Reload"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:40
+#: ../qml/components/MainPage.qml:37
+msgid "Settings..."
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:73
+msgid ""
+"There is no text in the clipboard.\n"
+"Please copy some text from another application first"
+msgstr ""
+
+#: ../qml/components/ClipboardImportPage.qml:126
+msgid "Import to list"
+msgstr ""
+
 #: ../qml/components/ColorListPage.qml:13
 msgid "Pick a color"
 msgstr ""
@@ -294,6 +145,155 @@ msgstr ""
 
 #: ../qml/components/ColorListPage.qml:70
 msgid "Purple"
+msgstr ""
+
+#: ../qml/components/ConfirmDialog.qml:36
+#: ../qml/components/PersistentListDelegate.qml:42
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/components/ConfirmDialog.qml:41
+msgid "OK"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:21
+msgid "History (swipe item for options)"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:26
+msgid "Delete all"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:58
+msgid ""
+"No items in history.\n"
+"Items appear here after you remove them from the list with Clear list button."
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:106
+msgid ""
+"Move\n"
+"to list"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:148 ../qml/components/MainPage.qml:61
+msgid "Delete list"
+msgstr ""
+
+#: ../qml/components/HistoryPage.qml:149
+msgid "Permanently delete all the items in the history?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:19
+msgid "Trolly"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:25
+msgid "About..."
+msgstr ""
+
+#: ../qml/components/MainPage.qml:45
+msgid "Checkout"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:53
+msgid "Clear list"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:69
+msgid "History..."
+msgstr ""
+
+#: ../qml/components/MainPage.qml:79
+msgid "Import from clipboard..."
+msgstr ""
+
+#: ../qml/components/MainPage.qml:93
+msgid "Clear list?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:94
+msgid "Items will be moved to History page"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:101
+msgid "Delete list ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:102
+msgid "Permanently delete all the items ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:109
+msgid "Clear Checked items ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:110
+msgid "Remove PERMANENTLY checked items ?"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:163
+msgid "Add an item"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:187
+msgid "Add"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:202
+msgid "(Swipe to right or left selected item for options)"
+msgstr ""
+
+#: ../qml/components/MainPage.qml:212
+msgid "Mark disabled"
+msgstr ""
+
+#: ../qml/components/PersistentListDelegate.qml:26
+msgid "Edit"
+msgstr ""
+
+#: ../qml/components/PersistentListDelegate.qml:47
+msgid "Confirm"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:10
+msgid "Trolly Settings"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:23
+msgid "Appearance"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:27
+msgid "Item in list"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:40
+msgid "Item in trolly (checked ones)"
+msgstr ""
+
+#: ../qml/components/SettingsPage.qml:52
+msgid "Align to center"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:14
+msgid "Clipboard Import Settings"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:27
+msgid "Separators used to tokenize clipboard entry"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:29
+msgid "Comma"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:39
+msgid "New line"
+msgstr ""
+
+#: ../qml/components/TokenizerSettingsPage.qml:49
+msgid "Space"
 msgstr ""
 
 #: trolly.desktop.in.h:1
